@@ -5,6 +5,9 @@ on:
     tags:
       - "v*"
 
+  # 允许你从 Actions 页签手动运行此工作流
+  workflow_dispatch:
+
 env:
   REPO_NAME: bilibili-video-downloader
 
